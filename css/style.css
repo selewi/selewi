@@ -1,8 +1,49 @@
-/*!
- * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
- */
+html {
+	scroll-behavior: smooth;
+}
+
+.img-thumbnail {
+	border-radius: 999px;
+}
+
+.portfolio-item {
+	margin-bottom: 30px;
+	transition: transform .5s;
+}
+
+.portfolio-item .card {
+	border: 0px;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.1);
+}
+
+.portfolio-item img {
+	transition: filter .5s;
+}
+
+.portfolio-item .card-img-overlay {
+	display: none;
+}
+
+.portfolio-item:hover img {
+	-webkit-filter: opacity(15%);
+    filter: opacity(15%);
+}
+
+.portfolio-item:hover .card-img-overlay {
+	display: inline;
+}
+
+.btn-icon {
+	border-radius: 999px;
+    padding: 1rem .7rem;
+}
+
+.btn-icon i {
+	margin: 5px;
+}
 
 .fade-in {
 	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -84,45 +125,22 @@
 	}
 }
 
-.img-thumbnail {
-	border-radius: 999px;
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-.portfolio-item {
-	margin-bottom: 30px;
-	transition: transform .5s;
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #343a40; /* #888; */
 }
 
-.portfolio-item .card {
-	border: 0px;
-}
-
-.portfolio-item:hover {
-    transform: scale(1.1);
-}
-
-.portfolio-item img {
-	transition: filter .5s;
-}
-
-.portfolio-item .card-img-overlay {
-	display: none;
-}
-
-.portfolio-item:hover img {
-	-webkit-filter: opacity(15%);
-    filter: opacity(15%);
-}
-
-.portfolio-item:hover .card-img-overlay {
-	display: inline;
-}
-
-.btn-icon {
-	border-radius: 999px;
-    padding: 1rem .7rem;
-}
-
-.btn-icon i {
-	margin: 5px;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }

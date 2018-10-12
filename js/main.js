@@ -1,4 +1,8 @@
 $(document).ready(() => {
+	$('body')
+		.addClass ('fade-in')
+		.removeClass('d-none');
+
 	$('[data-toggle="tooltip"]').tooltip();
 
 	$('.btn-transition').click((e) => {
