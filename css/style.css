@@ -18,7 +18,7 @@ body {
 }
 
 .img-thumbnail {
-	border-radius: 150px;
+	border-radius: 999px;
 }
 
 .portfolio-item {
@@ -49,4 +49,13 @@ body {
 
 .portfolio-item:hover .card-img-overlay {
 	display: inline;
+}
+
+.btn-icon {
+	border-radius: 999px;
+    padding: 1rem .7rem;
+}
+
+.btn-icon i {
+	margin: 5px;
 }
