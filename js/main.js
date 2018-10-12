@@ -7,7 +7,8 @@ $(document).ready(() => {
 		$('body').addClass ('fade-out');
 
 		setTimeout(function(){
+			$('body').addClass ('d-none');
 		    window.location = $(e.target).attr("href");
-		}, 450);
+		}, 485);
 	});
 });
