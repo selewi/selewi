@@ -4,8 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
  */
 
+
+
 body {
 	/*padding-top: 54px;*/
+	/*font-family: 'Raleway', 'Roboto', sans-serif;*/
 }
 
 @media (min-width: 992px) {
@@ -14,9 +17,17 @@ body {
 	}
 }
 
+.img-thumbnail {
+	border-radius: 150px;
+}
+
 .portfolio-item {
 	margin-bottom: 30px;
 	transition: transform .5s;
+}
+
+.portfolio-item .card {
+	border: 0px;
 }
 
 .portfolio-item:hover {
@@ -33,7 +44,7 @@ body {
 
 .portfolio-item:hover img {
 	-webkit-filter: opacity(15%);
-    filter: opacity (15%);
+    filter: opacity(15%);
 }
 
 .portfolio-item:hover .card-img-overlay {
