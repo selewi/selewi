@@ -45,6 +45,15 @@ html {
 	margin: 5px;
 }
 
+span.dropdown-item:focus, span.dropdown-item:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+span.dropdown-item.active, span.dropdown-item:active {
+    color: #212529;
+}
+
 .fade-in {
 	-webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */

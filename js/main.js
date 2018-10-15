@@ -4,6 +4,7 @@ $(document).ready(() => {
 		.removeClass('d-none');
 
 	$('[data-toggle="tooltip"]').tooltip();
+	$('.carousel').carousel();
 
 	$('.btn-transition').click((e) => {
 		e.preventDefault ();
@@ -13,6 +14,6 @@ $(document).ready(() => {
 		setTimeout(function(){
 			$('body').addClass ('d-none');
 		    window.location = $(e.target).attr("href");
-		}, 485);
+		}, 450);
 	});
 });
