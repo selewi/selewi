@@ -4,5 +4,7 @@ $(document).ready(() => {
     let navContainer = $('#navbar');
 
     $('#navbar').append(el.cloneNode(true));
+    
     $(`#${navContainer.attr('active')}`).addClass('active');
+    $(`#${navContainer.attr('active')}`).href('#');
 });
