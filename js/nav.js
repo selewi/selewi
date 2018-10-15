@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    let content = $('link[rel="import"]').import;
+    let content = $('link[rel="import"]').get(0).import;
     let el = $('nav').get(0);
     let navContainer = $('navbar');
 
