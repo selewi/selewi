@@ -5,6 +5,13 @@ $(document).ready(() => {
 
 	$('[data-toggle="tooltip"]').tooltip();
 
+	$('[data-toggle="lightbox"]').click((e) => {
+        e.preventDefault();
+        $(e.currentTarget).ekkoLightbox({
+        	alwaysShowClose: true
+        });
+    });
+
 	$('.btn-transition').click((e) => {
 		e.preventDefault ();
 		
@@ -23,3 +30,4 @@ $(document).ready(() => {
 		});
 	});
 });
+

@@ -15,6 +15,10 @@ img[data-src] {
   border: 0px;
 }
 
+.modal-body {
+  padding: 0px;
+}
+
 .img-thumbnail {
 	border-radius: 999px;
 }
