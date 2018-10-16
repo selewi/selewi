@@ -101,7 +101,7 @@ span.dropdown-item.active, span.dropdown-item:active {
     to   { opacity: 1; }
 }
 
-.fade-out {
+.fade-out:not(img) {
     -webkit-animation: fadeout .5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadeout .5s; /* Firefox < 16 */
         -ms-animation: fadeout .5s; /* Internet Explorer */
