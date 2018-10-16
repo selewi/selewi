@@ -10,9 +10,16 @@ $(document).ready(() => {
 		
 		$('body').addClass ('fade-out');
 
-		setTimeout(function(){
+		setTimeout(() => {
 			$('body').addClass ('d-none');
 		    window.location = $(e.target).attr("href");
 		}, 450);
+	});
+
+	$('img[data-src]').each ((i,img) => {
+		$(img).attr ('src',$(img).attr('data-src'));
+		$(img).load (() => {
+			$(img).removeAttr('data-src');
+		});
 	});
 });
