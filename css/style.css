@@ -2,6 +2,19 @@ html {
 	scroll-behavior: smooth;
 }
 
+img {
+  opacity: 1;
+  transform: scale(1);
+  
+  transition: transform 1s, opacity .5s;
+}
+
+img[data-src] {
+  opacity: 0;
+  transform: scale(.95);
+  border: 0px;
+}
+
 .img-thumbnail {
 	border-radius: 999px;
 }
@@ -19,15 +32,12 @@ html {
     transform: scale(1.1);
 }
 
-.portfolio-item img {
-	transition: filter .5s;
-}
-
 .portfolio-item .card-img-overlay {
 	display: none;
 }
 
 .portfolio-item:hover img {
+    transition: filter .5s;
 	-webkit-filter: opacity(15%);
     filter: opacity(15%);
 }
@@ -52,15 +62,6 @@ span.dropdown-item:focus, span.dropdown-item:hover {
 
 span.dropdown-item.active, span.dropdown-item:active {
     color: #212529;
-}
-
-img {
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-img[data-src] {
-  opacity: 0;
 }
 
 .fade-in {
