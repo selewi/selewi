@@ -38,6 +38,7 @@ function renderDropdownGames () {
 	$(menu).append (renderDropdownItem ('wool-pit', '../projects/wool-pit.html', '<i class="fas fa-award text-warning" data-toggle="tooltip" data-placement="left" title="1st place - Hardcore Punk Jam"></i> Wool pit'));
 	$(menu).append (renderDropdownItem ('necroreaper', '../projects/necroreaper.html', '<i class="fas fa-award text-muted" data-toggle="tooltip" data-placement="left" title="2nd place - Game Dev Network Jam"></i> Necroreaper'));
 	$(menu).append (renderDropdownItem ('pixo-runner', '../projects/pixo-runner.html', 'Pixo Runner'));
+	$(menu).append (renderDropdownItem ('spooks-escape', '../projects/spooks-escape.html', "Spook's Escape"));
 	$(menu).append (renderDropdownItem ('pink-cookie-cat', '../projects/pink-cookie-cat.html', 'Pink Cookie Cat'));
 	$(menu).append (renderDropdownItem ('starship-v24h', '../projects/starship-v24h.html', 'Starship v24h'));
 	$(menu).append ('<div class="dropdown-divider"></div>');
