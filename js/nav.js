@@ -58,6 +58,7 @@ function renderDropdownSoftware () {
 
 	$(menu).append (renderDropdownHeader ('Freelance'));
 	$(menu).append (renderDropdownItem ('inclima', '../projects/inclima.html', 'Inclima'));
+	$(menu).append (renderDropdownItem ('socio-espectador', '../projects/socio-espectador.html', 'Socio Espectador'));
 
 	$(dropdown).append (btn);
 	$(dropdown).append (menu);
