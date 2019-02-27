@@ -44,6 +44,9 @@ function renderDropdownGames () {
 	$(menu).append ('<div class="dropdown-divider"></div>');
 	$(menu).append (renderDropdownHeader ('Freelance'));
 	$(menu).append (renderDropdownItem ('itsy-bitsy-spider', '../projects/itsy-bitsy-spider.html', 'Itsy Bitsy Spider'));
+	$(menu).append ('<div class="dropdown-divider"></div>');
+	$(menu).append (renderDropdownHeader ('Prototypes'));
+	$(menu).append (renderDropdownItem ('stellar-map', '../projects/stellar-map.html', 'Stellar Map'));
 
 	$(dropdown).append (btn);
 	$(dropdown).append (menu);
