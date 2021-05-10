@@ -37,6 +37,7 @@ function renderDropdownGames () {
 
 	$menu.append (renderDropdownHeader ('Personal'));
 	$menu.append (renderDropdownItem ('aske', '../projects/aske.html', 'Aske'));
+	$menu.append (renderDropdownItem ('morks-trial', '../projects/morks-trial.html', 'Mork\'s Trial'));
 	$menu.append (renderDropdownItem ('rottenwood-lake', '../projects/rottenwood-lake.html', 'Rottenwood lake'));
 	$menu.append (renderDropdownItem ('blood-n-goods', '../projects/blood-n-goods.html', 'Blood and Goods'));
 	$menu.append (renderDropdownItem ('wool-pit', '../projects/wool-pit.html', '<i class="fas fa-award text-warning" data-toggle="tooltip" data-placement="left" title="1st place - Hardcore Punk Jam"></i> Wool pit'));
