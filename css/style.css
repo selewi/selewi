@@ -59,6 +59,14 @@ img[data-src] {
 	margin: 5px;
 }
 
+h3.card-title {
+    font-size: 1.2rem;
+}
+
+p.card-text {
+    font-size: .9rem;
+}
+
 span.dropdown-item:focus, span.dropdown-item:hover {
     text-decoration: none;
     background-color: transparent;
