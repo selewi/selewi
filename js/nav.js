@@ -43,16 +43,16 @@ function renderDropdownGames () {
 	$menu.append (renderDropdownItem ('blood-n-goods', '../projects/blood-n-goods.html', 'Blood and Goods'));
 	$menu.append (renderDropdownItem ('wool-pit', '../projects/wool-pit.html', '<i class="fas fa-award text-warning" data-toggle="tooltip" data-placement="left" title="1st place - Hardcore Punk Jam"></i> Wool pit'));
 	$menu.append (renderDropdownItem ('necroreaper', '../projects/necroreaper.html', '<i class="fas fa-award text-muted" data-toggle="tooltip" data-placement="left" title="2nd place - Game Dev Network Jam"></i> Necroreaper'));
-	$menu.append (renderDropdownItem ('pixo-runner', '../projects/pixo-runner.html', 'Pixo Runner'));
-	$menu.append (renderDropdownItem ('spooks-escape', '../projects/spooks-escape.html', "Spook's Escape"));
-	$menu.append (renderDropdownItem ('pink-cookie-cat', '../projects/pink-cookie-cat.html', 'Pink Cookie Cat'));
-	$menu.append (renderDropdownItem ('starship-v24h', '../projects/starship-v24h.html', 'Starship v24h'));
-	$menu.append ('<div class="dropdown-divider"></div>');
-	$menu.append (renderDropdownHeader ('Freelance'));
-	$menu.append (renderDropdownItem ('itsy-bitsy-spider', '../projects/itsy-bitsy-spider.html', 'Itsy Bitsy Spider'));
-	$menu.append ('<div class="dropdown-divider"></div>');
-	$menu.append (renderDropdownHeader ('Prototypes'));
-	$menu.append (renderDropdownItem ('stellar-map', '../projects/stellar-map.html', 'Stellar Map'));
+	// $menu.append (renderDropdownItem ('pixo-runner', '../projects/pixo-runner.html', 'Pixo Runner'));
+	// $menu.append (renderDropdownItem ('spooks-escape', '../projects/spooks-escape.html', "Spook's Escape"));
+	// $menu.append (renderDropdownItem ('pink-cookie-cat', '../projects/pink-cookie-cat.html', 'Pink Cookie Cat'));
+	// $menu.append (renderDropdownItem ('starship-v24h', '../projects/starship-v24h.html', 'Starship v24h'));
+	// $menu.append ('<div class="dropdown-divider"></div>');
+	// $menu.append (renderDropdownHeader ('Freelance'));
+	// $menu.append (renderDropdownItem ('itsy-bitsy-spider', '../projects/itsy-bitsy-spider.html', 'Itsy Bitsy Spider'));
+	// $menu.append ('<div class="dropdown-divider"></div>');
+	// $menu.append (renderDropdownHeader ('Prototypes'));
+	// $menu.append (renderDropdownItem ('stellar-map', '../projects/stellar-map.html', 'Stellar Map'));
 
 	$dropdown.append ($btn);
 	$dropdown.append ($menu);
