@@ -36,6 +36,7 @@ function renderDropdownGames () {
 	let $menu = $('<div class="dropdown-menu" aria-labelledby="navbarDropdown">');
 
 	$menu.append (renderDropdownHeader ('Personal'));
+	$menu.append (renderDropdownItem ('tnots', 'https://store.steampowered.com/app/1975180/The_Night_of_the_Scissors/', 'The Night of the Scissors', true));
 	$menu.append (renderDropdownItem ('aske', '../projects/aske.html', 'Aske'));
 	$menu.append (renderDropdownItem ('morks-trial', '../projects/morks-trial.html', 'Mork\'s Trial'));
 	$menu.append (renderDropdownItem ('rottenwood-lake', '../projects/rottenwood-lake.html', 'Rottenwood lake'));
@@ -83,8 +84,8 @@ function renderDropdownHeader (text) {
 	return $(`<span class="dropdown-item"><b>${text}</b></span>`);
 }
 
-function renderDropdownItem (id, href, text) {
-	return $(`<a id="${id}" class="dropdown-item btn-transition" href="${href}">${text}</a>`);
+function renderDropdownItem (id, href, text, externalLink = false) {
+	return $(`<a id="${id}" class="dropdown-item ${externalLink ? "" : "btn-transition"}" href="${href}" target="${externalLink ? "_blank" : ""}">${text}</a>`);
 }
 
 function renderFooter ($container) {
